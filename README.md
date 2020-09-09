@@ -2,7 +2,7 @@
 
 Fully functional blackjack game. The ability to add "Artificial Players" was implemented and their playing strategy was programmed in order to reach the maximum profit.
 
-#Functioning
+# Functioning
 
 The player has 4 options when playing:
 
@@ -14,7 +14,7 @@ The player has 4 options when playing:
 * Surrender - Press R: The player quits the game and the dealer gets half of the bet.
 * Bet - Press B: 
 
-#Input File
+# Input File
 
 
-#Output Statistics File
+# Output Statistics File
