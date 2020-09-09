@@ -40,3 +40,4 @@ The output file prints statistics about each player, specifying:
 * The money value each player has ended the game.
 * The money value each player has won or lost. 
 
+An example of output file is provided.
