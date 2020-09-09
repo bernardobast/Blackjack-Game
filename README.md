@@ -2,6 +2,8 @@
 
 Fully functional blackjack game. The ability to add "Artificial Players" was implemented and their playing strategy was programmed in order to reach the maximum profit.
 
+# Running
+
 # Functioning
 
 The player has 4 options when playing:
