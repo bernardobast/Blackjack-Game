@@ -4,11 +4,20 @@ Fully functional blackjack game. The ability to add "Artificial Players" was imp
 
 # Running
 
+To compile the code, the following command must be used:
+
 ```sh
 gcc BlackJackGUI.c -g -I/usr/local/include -Wall -pedantic -std=c99 -L/usr/local/lib -lm -lSDL2 -lSDL2_ttf -lSDL2_image -o blackjack
 ```
 
 The folder including the used libraries can vary according to the Linux version used. (Use the command "sdl2-config --cflags --libs" to find the right location)
+
+To run the game, the following command must be used:
+
+```sh
+./blackjack.c parametros.txt
+```
+
 
 # Functioning
 
@@ -35,7 +44,7 @@ For each player, the file contains information about:
 * Initial value each player begins the game. Between 10 and 500.
 * Initial bet value of each player. 
 
-An example of an input file is provided.
+An example of an input file with the name parametros.txt is provided.
 
 # Output Statistics File
 
