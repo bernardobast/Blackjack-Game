@@ -8,6 +8,8 @@ Fully functional blackjack game. The ability to add "Artificial Players" was imp
 gcc BlackJackGUI.c -g -I/usr/local/include -Wall -pedantic -std=c99 -L/usr/local/lib -lm -lSDL2 -lSDL2_ttf -lSDL2_image -o blackjack
 ```
 
+The folder including the used libraries can vary according to the Linux version used. (Use the command "sdl2-config --cflags --libs" to find the right location)
+
 # Functioning
 
 The player has 4 options when playing:
