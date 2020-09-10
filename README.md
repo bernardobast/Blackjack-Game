@@ -4,6 +4,10 @@ Fully functional blackjack game. The ability to add "Artificial Players" was imp
 
 # Running
 
+```sh
+gcc BlackJackGUI.c -g -I/usr/local/include -Wall -pedantic -std=c99 -L/usr/local/lib -lm -lSDL2 -lSDL2_ttf -lSDL2_image -o blackjack
+```
+
 # Functioning
 
 The player has 4 options when playing:
