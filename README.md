@@ -30,7 +30,7 @@ The player has 4 options when playing:
 * Doube - Press D: Duplicates the value of the bet.
 * Surrender - Press R: The player quits the game and the dealer gets half of the bet.
 * Bet - Press B: Select the value of a new bet.
-* Add new Player - At the end of each round the user can ad a new Human or Artificial player. The information about the player must be specified in the command line.
+* Add new Player - Press A: At the end of each round the user can ad a new Human or Artificial player. The information about the player must be specified in the command line.
 
 # Input File
 
