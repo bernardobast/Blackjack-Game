@@ -7,7 +7,7 @@ Fully functional blackjack game. The ability to add "Artificial Players" was imp
 To compile the code, the following command must be used:
 
 ```sh
-gcc BlackJackGUI.c -g -I/usr/local/include -Wall -pedantic -std=c99 -L/usr/local/lib -lm -lSDL2 -lSDL2_ttf -lSDL2_image -o blackjack
+gcc main.c bj.c -g -I/usr/local/include -Wall -pedantic -std=c99 -L/usr/local/lib -lm -lSDL2 -lSDL2_ttf -lSDL2_image -o blackjack
 ```
 
 The folder including the used libraries can vary according to the Linux version used. (Use the command "sdl2-config --cflags --libs" to find the right location)
@@ -15,7 +15,7 @@ The folder including the used libraries can vary according to the Linux version 
 To run the game, the following command must be used:
 
 ```sh
-./blackjack.c parametros.txt
+./blackjack.c parametros.txt EA.txt
 ```
 
 
@@ -30,6 +30,7 @@ The player has 4 options when playing:
 * Doube - Press D: Duplicates the value of the bet.
 * Surrender - Press R: The player quits the game and the dealer gets half of the bet.
 * Bet - Press B: Select the value of a new bet.
+* Add new Player - At the end of each round the user can ad a new Human or Artificial player. The information about the player must be specified in the command line.
 
 # Input File
 
