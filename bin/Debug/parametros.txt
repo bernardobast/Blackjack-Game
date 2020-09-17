@@ -1,0 +1,5 @@
+1-4
+EA-Horacio-200-20
+HU-Jose-300-10
+HU-Tomas-400-40
+EA-Yuri-700-90
