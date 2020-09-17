@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1463837756 source:/home/bernardobastos/Desktop/Blackjack_4/Blackjack/bj.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	"bj.h"
+
+1463768225 /home/bernardobastos/Desktop/Blackjack_4/Blackjack/bj.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+
+1463836857 source:/home/bernardobastos/Desktop/Blackjack_4/Blackjack/main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	"bj.h"
+
