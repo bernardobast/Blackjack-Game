@@ -4,6 +4,13 @@ Fully functional blackjack game. The ability to add "Artificial Players" was imp
 
 # Running
 
+In order to run the code, the following LSD libraries must be installed.
+
+```sh
+sudo apt-get install libsdl2-dev
+sudo apt-get install libsdl2-image-dev
+```
+
 To compile the code, the following command must be used:
 
 ```sh
@@ -17,7 +24,6 @@ To run the game, the following command must be used:
 ```sh
 ./blackjack.c parametros.txt EA.txt
 ```
-
 
 # Functioning
 
